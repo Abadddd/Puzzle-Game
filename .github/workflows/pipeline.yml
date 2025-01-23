@@ -20,9 +20,6 @@ steps:
     image: alpine/git:latest
     commands:
       - echo "Initializing repository..."
-      # Remove the git init step if your repository is already initialized
-      # - git init
-      # - echo "# SIAPipeLine_DATALINK" >> README.md
 
   # Step 2: Build Step (optional if needed for your project)
   - stage: Build
